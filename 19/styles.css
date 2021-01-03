@@ -1,0 +1,38 @@
+/* .parrafo{
+    background: lightblue;
+    padding: .5em;
+}
+
+.parrafo:empty{
+    padding: 0;
+    all: unset;
+} */
+
+/* .parrafo:first-child{
+    background: lightblue;
+}
+
+.parrafo:last-child{
+    background: lightcoral;
+} */
+
+/* .parrafo:nth-child(odd){
+    background: lightcoral;
+} */
+
+/* .parrafo:nth-child(3n){
+    background: lightcoral;
+} */
+
+/* .parrafo:nth-last-child(3n){
+    background: lightcoral;
+} */
+
+/* .parrafo:first-child{
+    background: lightcoral;
+}
+
+.parrafo:first-of-type{
+    background: lightcyan;
+} */
+

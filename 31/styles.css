@@ -1,0 +1,10 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* border-radius: 50px 100px 150px 200px; */
+    border-radius: 500px/100px;
+}

@@ -1,0 +1,41 @@
+/* [class^=img]{
+    width: 50%;
+} */
+
+/* .img{
+    width: 150px;
+    height: 280px;
+    background: lightcoral;
+    object-fit: cover;
+    object-position: right;
+} */
+
+.img2{
+    max-width: 100%;
+    /* width: 100%; */
+}
+
+.img2:hover{
+    /* filter: blur(10px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(500%); */
+    /* filter: drop-shadow(10px 10px 10px black); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(1); */
+    /* filter: opacity(.5); */
+    /* filter: saturate(900%); */
+    /* filter: sepia(1); */
+    filter: none;
+}
+
+
+/* EFECTO WAPO DE TRANSICION */
+
+/* .img{
+    transition: object-position 1.5s;
+}
+
+.img:hover{
+    object-position: left;
+} */

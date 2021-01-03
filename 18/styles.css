@@ -1,0 +1,42 @@
+.input, .label{
+    display: block;
+}
+
+.input:enabled{
+    background-color: lightblue;
+    border: none;
+}
+
+.input:disabled{
+    background-color: lightcoral;
+    border: none;
+}
+
+.input:checked + label{
+    border: dotted;
+}
+
+.input:in-range{
+    background-color: lightseagreen;
+}
+
+.input:out-of-range{
+    background-color: maroon;
+    color:white;
+}
+
+.input:optional{
+    background: lightgray;
+}
+
+.input:required{
+    background: lightgreen;
+}
+
+.input:valid{
+    background: lightpink;
+}
+
+.input:invalid{
+    background: red;
+}

@@ -1,0 +1,25 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: black solid 3px;
+
+/*     box-shadow: 10px 10px 10px  black;
+    box-shadow: 10px 10px 10px  black inset; */
+
+    /* box-shadow: 0 0 0 5px yellow; */
+
+    box-shadow: -10px -10px 0 0 blue,
+                 10px  10px 0 0 red;
+}
+
+.text{
+    text-align: center;
+    /* text-shadow: -10px -10px 5px blue,
+                  10px  10px 5px red; */
+
+    text-shadow: 10px 10px 5px #000;
+}

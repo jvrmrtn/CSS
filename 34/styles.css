@@ -1,0 +1,12 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    border: 5px solid black;
+    margin: 50px auto;
+
+    background-image: 
+        repeating-radial-gradient(circle,
+        red 0 50px,
+        blue 50px 100px);
+}

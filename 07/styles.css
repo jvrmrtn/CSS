@@ -1,0 +1,16 @@
+.box1, .box2{
+    width: 400px;
+    height: 400px;
+    margin: 2em;
+}
+
+.box1{
+    background-color: lightcoral;
+    border: 100px solid red;
+    border-top-color: transparent;
+}
+
+.box2{
+    background-color: lightseagreen;
+    border-left: 5px dotted blue;
+}

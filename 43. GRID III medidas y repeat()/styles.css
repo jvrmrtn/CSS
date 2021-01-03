@@ -1,0 +1,30 @@
+body{
+    background-image: radial-gradient(rgb(187, 19, 150),rgb(24, 4, 61));
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    /* grid-gap: 5px; */
+    grid-template-columns: repeat(2, 100px 50px);
+    grid-template-rows: repeat(2, 100px 50px)
+
+}
+
+.grid-item,
+.grid-item-ex{
+    /* padding: 1em; */
+
+    border: 1px solid white;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

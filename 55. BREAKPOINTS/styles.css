@@ -1,0 +1,24 @@
+body{
+background-color: royalblue;}
+
+.menu{
+    color: skyblue;
+}
+
+@media screen and (min-width:720px){
+    body{
+        background-color: rosybrown ;
+    }
+}
+
+@media screen and (min-width:1920px){
+    body{
+        background-color: rgb(72, 212, 114) ;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-around
+        
+    }
+}

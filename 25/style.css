@@ -1,0 +1,32 @@
+/* .list{
+    list-style-type: lower-greek; 
+    list-style-image: url(); 
+} */
+
+
+
+/* Imagen como punto delante de elementos en lista con BEFORE */
+
+.list{
+    list-style-type: none;
+}
+
+/*.list__item::before{
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(../21/GULF.png);
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* margin-right: 5px; 
+} */
+
+.list__item{
+    background-image: url(../21/GULF.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+}

@@ -1,0 +1,38 @@
+.title{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
+    /* font-size: 2em; */
+    /* font-size: 10vmin; */
+    /* font-style: oblique; */
+
+    /* text-transform: capitalize; */
+
+}
+
+.span{
+    /* font-size: 2rem; */
+}
+
+.paragraph{
+    /* font-weight: bolder; */
+    /* text-align: right; */
+    /* text-indent: 30px; */
+    letter-spacing: 2PX;
+}
+
+.link{
+/*     display: block;
+    text-align: center; */
+    /* text-decoration: line-through; */
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: lightslategray;
+}
+
+.box__item{
+    line-height: 200px;
+    text-align: center;
+}

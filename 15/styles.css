@@ -1,0 +1,16 @@
+.inline{
+    background-color: lightseagreen;
+/*     margin-bottom: 30em; /* NO AFECTA a posicion en flujo EN INLINE
+    padding-top: 30em; /* NO AFECTA a posicion en flujo EN INLINE */ 
+
+
+/*     display: inline-block;
+    margin-bottom: 2em;
+    height: 200px; */
+
+    display: none; /* ELEMENTO SE CARGA PERO NO SE MUESTRA/CONSUME RECURSOS */
+}                  /* NO RESPETA SU ESPACIO EN EL FLUJO */
+.block{
+    background-color: lightskyblue;
+    margin: 0;
+}

@@ -1,0 +1,57 @@
+[class^=box]{
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 4em;
+    line-height: 3em;
+
+    position: relative;
+}
+
+.box-1{
+    background-color: lightblue;
+    z-index: 300;
+}
+
+.box-2{
+    background-color: lightcoral;
+    top: -100px;
+    left: 100px;
+    z-index: 200;
+}
+
+.box-3{
+    background-color: lightgreen;
+    top: -200px;
+    left: 200px;
+    z-index: 100;
+}
+
+.box-4{
+    background-color: lightpink;
+    top: -300px;
+    left: 300px;
+    z-index: 400;
+}
+
+/* PARA QUE FUNCIONES Z-INDEX ENTRE PADRES E HIJOS */
+
+.padre{
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    position: relative;
+    /* SIN Z-INDEX DECLARADO */
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    position: relative;
+    top: -10px;
+    left: 150px;
+    /* Z-INDEX NEGATIVO */
+    z-index: -1;
+}

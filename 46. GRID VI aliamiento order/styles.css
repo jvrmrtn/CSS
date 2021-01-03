@@ -1,0 +1,39 @@
+body{
+    background-image: radial-gradient(rgb(233, 23, 222), rgb(80, 6, 34));
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: ivory;
+    font-family: sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 5px solid yellow;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* place-items: start end; */ /* VERTICAL HORIZONTAL */
+    /* justify-content: center; */
+    /* align-content: space-evenly; */
+    /* place-content: space-evenly; */ /* VERTICAL HORIZONTAL */
+}
+
+.grid-item{
+    border: 1px solid ivory;
+    font-size: 2em;
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item:first-child{
+    /* align-self: end; */
+    /* justify-self: start; */
+    /* place-self: end; */
+}

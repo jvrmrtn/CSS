@@ -1,0 +1,43 @@
+.container{
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+    display: flex;
+}
+
+[class^=box]{
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 1.5em;
+
+    /* flex: 1 1 auto; */
+}
+
+.box-1{
+    background-color: crimson;
+    /* order: 4; */
+}
+
+.box-2{
+    background-color: darkgoldenrod;
+    /* order: 3; */
+}
+
+.box-3{
+    background-color: darkmagenta;
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+    /* flex-basis: 200px; */
+    /* order: 2; */
+}
+
+.box-4{
+    background-color: darkturquoise;
+    /* order: 1; */
+}

@@ -1,0 +1,23 @@
+/* p{
+    color: blue;
+}
+
+a{
+    color: inherit;
+} */
+
+#parrafo{
+    color: lightseagreen ;
+}
+
+.parrafo{
+    color: brown;
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    color: green /* !important */;
+}

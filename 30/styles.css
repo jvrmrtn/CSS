@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+    margin: 1em;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.color{
+    color: deeppink;
+    background: deepskyblue;
+}
+
+.rgb{
+    color: rgb(176, 240, 2);
+    background-color: rgb(70, 7, 49);
+}
+
+.rgba{
+    background-color: rgba(21, 1, 58, 0.5);
+    color: rgb(21, 1, 58);
+}
+
+.hexadecimal{
+    background-color: #112233;
+    color: #fc8004;
+}
+
+.hsl{
+    background-color: hsl(160, 100%, 50%);
+    color: hsl(270, 80%, 40%);
+}
+
+.hsla{
+    background-color: hsla(160, 100%, 50%, .5);
+    color: hsl(160, 100%, 50%);
+}
+

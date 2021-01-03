@@ -1,0 +1,28 @@
+.flex-container{
+    background-color: lightblue;
+    margin: 20px;
+    /* padding: 10px; */
+    display: flex;
+    /* display: inline-flex; */
+
+    /*  flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+}
+
+.flex-item{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+    background-color: rgb(95, 5, 57);
+}

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+/* RESPONSIVE */
+/* CORREGIR FONDO */
+
+/* .img{
+    max-width: 100%;
+    display: block;
+}
+
+.img-container{
+    background: red;
+    line-height: 0;
+} */
+
+
+/* CENTRAR IMAGEN HORIZONTAL */
+
+/* .img{
+    max-width: 50%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container{
+    background: lightcoral;
+    text-align: center;
+} */
+
+
+/* CENTRAR IMAGEN VERTICAL */
+
+/* .img{
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.img-container{
+    display: table;
+}
+
+.img-container-span{
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+.img{
+    max-width: 50%;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+}

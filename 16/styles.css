@@ -1,0 +1,33 @@
+.title::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+.text::first-line{
+    color: royalblue;
+}
+
+
+/* No funciona en elementos inline */
+.inline::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+/* CONVERTIRLO EN ELEMENTO EN BLOQUE PARA QUE FUNCIONE*/
+.inline{
+    display: block;
+}
+
+.text::selection{
+    color: lightcoral;
+    background-color: lightgreen; 
+}
+
+.dollar::before{
+    content: "$";
+}
+
+.dollar::after{
+    content: ".00";
+}

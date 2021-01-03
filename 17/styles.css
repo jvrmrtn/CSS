@@ -1,0 +1,53 @@
+/* .link:link{
+    color: lightsalmon;
+}
+.link:visited{
+    color: lightseagreen;
+}
+
+.link:active{
+    color: lightcoral;
+    background: red;
+}
+
+.title:hover{
+    color: lightcoral;
+}
+
+.input:focus{
+    background: lightgreen;
+} */
+
+/* .menu{
+    background-color: lightgreen;
+    display: block;
+    padding: 1em;
+    text-align: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.text{
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+}
+
+.text:target{
+    padding-top: 60px;
+} */
+
+.span{
+    display: block;
+}
+
+.span:lang(es){
+    color: lightseagreen;
+}
+
+.span:lang(en){
+    color: rgb(184, 219, 28);
+}

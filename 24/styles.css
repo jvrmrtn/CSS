@@ -1,0 +1,24 @@
+/* body{
+    font-family: 'Permanent Marker', cursive;
+} */
+
+/* .title{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+@font-face{
+    src: url(../24/assets/fonts/Brilliantte\ Personal\ Use\ Only.ttf);
+    font-family: "myFont";
+}
+
+.title{
+    font-family: myFont, serif;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 1px;
+}

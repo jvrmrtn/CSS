@@ -1,0 +1,53 @@
+.main-title{
+    color: rgb(156, 8, 65) ;
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(156, 8, 65);
+    height: 50px;
+}
+
+.main{
+    background-color: rgb(34, 32, 46);
+    height: 500px;
+}
+
+.footer{
+    background-color: rgb(219, 228, 236);
+    height: 200px;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 2.5;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.main-menu__link--active{
+    background-color: yellow;
+}
+
+.footer__item{
+    text-align: center;
+    line-height: 12;
+}
+
+.main__item{
+    margin: 0;
+    color:white;
+    padding: 10px;
+}

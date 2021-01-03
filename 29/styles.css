@@ -1,0 +1,31 @@
+body{
+    background: #333333;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: wheat;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box__item{
+    width: 400px;
+    height: 400px;
+    background: lightcoral;
+    /* clip-path: circle(50px at 0% 100%); */
+    /* clip-path: ellipse(50px 100px); */
+    /* clip-path: inset(20px round 50px); */
+    /* clip-path: polygon(50% 0%, 0 100%, 100% 100%); */
+    /* clip-path: polygon(20% 20%, 80% 20%, 80% 80%, 20% 80%); */
+
+    /* GENERADOR DE clip-path =>  https://bennettfeely.com/clippy/ */
+
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    transition: clip-path .5s;
+}
+
+.box__item:hover{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}

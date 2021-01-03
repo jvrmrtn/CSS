@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.parrafo-1{
+    /* visibility: hidden; */  /* NO MUESTRA ELEMENTO-RESERVA ESPACIO EN DOC */
+    display: none;             /* NO MUESTRA NI ELEMENTO NI ESPACIO RESERVADO */
+}

@@ -1,0 +1,35 @@
+body{
+    background-image: radial-gradient(rgb(216, 23, 81), rgb(109, 15, 46));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: khaki;
+}
+
+.grid-container{
+    display: grid;
+    /* grid-template: 80px 150px / 400px 300px; */
+    /* grid-template:  "header header header" 200px 
+                    "center center center" 500px
+                    ". footer ." 200px /
+                    30vh 30vh 30vh; */
+
+    grid-template: 100px 150px 200px / 250px 300px 400px;
+}
+
+.grid-item{
+    border: 1px solid khaki;
+    padding: 1.3em;
+
+    font-size: 1.5em;
+}
+
+.grid-item:first-child,
+.grid-item:nth-child(2),
+.grid-item:nth-child(3){
+    background-color: lightcoral;
+}

@@ -1,0 +1,35 @@
+/* .box{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    margin: 30px auto;
+    border: 5px solid black; */
+
+    /* background-image: linear-gradient( lightblue, royalblue, purple, rgb(77, 3, 48)); */
+    /* background-image: linear-gradient(to bottom right, red, blue); */
+    /* background-image: linear-gradient(10deg, red, blue); */
+/*     background-image: linear-gradient(to top left, red 25%, blue 75%);*/
+/*     
+    background-image: radial-gradient(ellipse 100px 50px, red 50%, blue 50% );
+
+} */
+
+.flag{
+    width: 600px;
+    height: 400px;
+    background-color:white;
+    border: 5px solid black ;
+    margin: 50px auto;
+}
+
+.chile{
+    background-image: linear-gradient(to top, red 0 50%, transparent 50% 100%),
+    linear-gradient(to right,blue 33%, transparent 33% 100%);
+}
+
+.eeuu{
+    background-image: 
+    linear-gradient(to top,red 0 10%, white 10% 20%, red 20% 30%, white 30% 40%, red 40% 50%, transparent 50%),
+    linear-gradient(to right, blue 50%, transparent 50% ),
+    linear-gradient(to bottom,white 0 10%, red 10% 20%, white 20% 30%, red 30% 40%, white 40% 50%, transparent 50%);
+}

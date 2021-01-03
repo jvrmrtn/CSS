@@ -1,0 +1,102 @@
+/* Selector de etiqueta */
+p{
+    color: rebeccapurple;
+}
+
+/* Selectores de clase */
+ 
+.title{
+    color: rgb(238, 15, 208);
+}
+
+/* Selectores de ID */
+ 
+#text{
+    color: seagreen;
+}
+/* Selectores universales */
+
+*{
+    color: slateblue;
+}
+
+
+/* Selectores de atributo */
+
+/* Seleccionar los elementos que tienen ese atributo */
+
+[href]{
+    color: rgb(231, 8, 57);
+}
+
+/* Seleccionar los elementos que tienen ese atributo y ese valor*/
+
+[href="#"]{
+    color: tomato;
+}
+
+/* Seleccionar los elementos que tienen ese atributo al menos ese valor una vez*/
+
+[class~="alto"]{
+    color: goldenrod;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y exactamente ese valor o empieze por el valor seguido de un guión*/
+
+[class|="bajo"]{
+    color: rgb(13, 223, 238);
+}
+
+/* Seleccionar los elementos que tienen ese atributo y empiezan por ese valor*/
+
+[class^="bajo"]{
+    color: rgb(158, 243, 0);
+}
+
+/* Seleccionar los elementos que tienen ese atributo y terminan por ese valor*/
+
+[class$="alto"]{
+    color: rgb(243, 0, 182);
+}
+
+/* Seleccionar los elementos que tienen ese atributo y contengan ese valor*/
+
+[class*="alto"]{
+    color: rgb(4, 0, 243);
+}
+
+
+
+/* Selectores combinadores */
+
+/* Selector de hermano adyacente */
+
+/* Selecciona al hermano que esté justo por debajo de el. El estilo se aplica al hermano inferior */
+
+h1 + h2{
+    color: indigo;
+}
+
+/* Selector de hermano general */
+
+/* Selecciona todos los hermanos que esté por debajo de el. El estilo se aplica a todos los hermanos */
+
+h1 ~ h3{
+    color: rgb(253, 24, 100);
+}
+
+/* Selectores descendentes */
+
+/* Selecciona todos los hijos. El estilo se aplica a todos los hijos */
+
+p span{
+    color: lightseagreen;
+}
+
+/* Selector de hijo directo */
+
+/* Selecciona todos los hijos que sean directos, es decir que no estén dentro de otras etiquetas. El estilo se aplica a todos los hijos */
+
+p > span{
+    color: seagreen;
+}

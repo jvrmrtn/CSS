@@ -1,0 +1,22 @@
+.img-box{
+    width: 90%;
+    margin: 2em auto;
+/*     margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    border: 5px solid lightcoral;
+    outline: 5px solid lightgoldenrodyellow;
+    outline-offset: -45px;
+}
+
+.text{
+    position: absolute;
+    color: lightgoldenrodyellow;
+    font-size: 6em;

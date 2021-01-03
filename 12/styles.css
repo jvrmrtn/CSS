@@ -1,0 +1,21 @@
+
+body{
+    padding-top: 8em;
+}
+
+.menu{
+    background-color: darkcyan; 
+    padding: 0.5em;
+    font-size: 3em;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+}

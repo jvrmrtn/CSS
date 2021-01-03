@@ -1,0 +1,24 @@
+.box-1, .box-2{
+    width: 200px;
+    height: 200px;
+    margin: 2em auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+.box-1{
+    background: lightgreen;
+    position: relative;
+    /* top right bottom left z-index */
+    top: 100px;
+    left: 100px;
+    /* top left SIEMPRE ESTAN POR ENCIMA DE bottom y right */
+/*     right: 500px;
+    bottom: 500px; */
+    z-index: 1;
+}
+
+.box-2{
+    background: lightsalmon;
+    position: relative;
+}
